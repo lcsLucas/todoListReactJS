@@ -1,0 +1,22 @@
+.todo-add {
+    input {
+        &::placeholder {
+            font-weight: 300;
+            font-size: 0.95rem;
+            color: #aaa;
+        }
+    }
+
+    .btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+        letter-spacing: 0.04rem;
+
+        svg {
+            margin-right: 0.4rem;
+        }
+    }
+}

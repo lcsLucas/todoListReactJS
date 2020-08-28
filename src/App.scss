@@ -1,0 +1,50 @@
+// import bootstrap source
+// required
+// Configuration
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// optionals
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/Card";
+@import "~bootstrap/scss/transitions";
+
+@import "~bootstrap/scss/utilities";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #ECECEC;
+    font-family: 'Poppins', sans-serif;
+}
+
+#root, .Todo-List {
+    min-height: 100%;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.Todo-List {
+    width: 100%;
+    max-width: 900px;
+    margin: 8rem auto;
+}
+
+.fa-fw {
+    width: 1.25em;
+    height: 1.25em;
+}
+
