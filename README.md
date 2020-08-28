@@ -1,3 +1,5 @@
+![alt text](https://github.com/lcsLucas/todoListReactJS/tree/master/public/img/apresentacao.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
